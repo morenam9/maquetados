@@ -5,6 +5,17 @@
     padding: 10px 15px;
 }
 
+.tweet__main-home{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tweet__home-img {
+    width: 28px;
+    margin-left: 500px;
+    margin-top: -15px;
+}
+
 .tweet a {
     color: #1b94e0;
     text-decoration: none;
@@ -18,7 +29,39 @@
     text-decoration: underline;
 }
 
+.tweet__status-upload-img{
+    width: 25px;
+    padding: 5px;
+    margin-bottom: -50px;
+}
+
+.tweet__status-button{
+    border: 1px solid #1da0f2;
+    color: #1da0f2;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius:15px ;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    margin-left: 380px;
+    margin-bottom: 10px;
+}
+
+.tweet__status-button:hover{
+    background:#1da0f2;
+    color: #e6ecf0;
+    cursor:pointer;
+}
+
 .tweet__author-logo{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet__friends-logo{
     width: 49px;
     height: 49px;
     border-radius: 50%;
